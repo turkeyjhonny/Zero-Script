@@ -1,117 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Class Schedule</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grow A Garden Script</title>
   <style>
     body {
+      background-color: #111;
+      color: #fff;
       font-family: Arial, sans-serif;
-      background: #f2f2f2;
-      padding: 20px;
-    }
-
-    .header {
-      text-align: center;
-      margin-bottom: 30px;
-    }
-
-    .header img {
-      width: 100px;
-      height: 100px;
-      border-radius: 10px;
-      object-fit: cover;
-      display: block;
-      margin: 0 auto 10px;
-    }
-
-    .header h1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
       margin: 0;
-      font-size: 28px;
-      color: #333;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      background: #fff;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-
-    th, td {
-      border: 1px solid #ddd;
-      padding: 15px;
       text-align: center;
-      vertical-align: top;
     }
-
-    th {
-      background: #4CAF50;
-      color: white;
+    h1 {
+      color: #00ff99;
+    }
+    p {
+      max-width: 700px;
+      line-height: 1.6;
+    }
+    .code-box {
+      background: #222;
+      border: 1px solid #00ff99;
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 15px;
+      font-family: monospace;
+      color: #0f0;
+      user-select: all;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      background: #00ff99;
+      color: #111;
       font-size: 16px;
+      cursor: pointer;
     }
-
-    td {
-      background-color: #fcfcfc;
-      font-size: 14px;
+    button:hover {
+      background: #00cc77;
     }
-
-    td p {
-      margin: 10px 0;
-      line-height: 1.4em;
+    a {
+      color: #00ff99;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-
-  <div class="header">
-    <img src="https://cdn.discordapp.com/attachments/1387099857206120518/1392487353008001104/received_714339171350626.jpg?ex=686fb668&is=686e64e8&hm=8e56c2b54cc01d2d2e829d128e7c8ffd703ce48669cdd501abcfe400098328d5&" alt="Class Logo" />
-    <h1>Class Schedule</h1>
+  <h1>Grow A Garden Script</h1>
+  <p>
+    Welcome to my script!<br>
+    Features include: <b>Trade Scam, Pet Dupe, Pet Leveler Script, and more!</b><br><br>
+    <b>Instructions:</b><br>
+    - This script only works on the <b>KRNL Executor</b>.<br>
+    - It does <b>NOT</b> work on Delta because Delta does not support Grow A Garden scripts.<br><br>
+    Download KRNL Executor here: <a href="https://krnl.cat/" target="_blank">https://krnl.cat/</a>
+  </p>
+  <div class="code-box" id="codeBox">
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/turkeyjhonny/GROW-A-GARDEN-HACKS/refs/heads/main/Salsalako"))()
   </div>
+  <button onclick="copyCode()">Copy to Clipboard</button>
 
-  <table>
-    <thead>
-      <tr>
-        <th>Monday</th>
-        <th>Tuesday</th>
-        <th>Wednesday</th>
-        <th>Thursday</th>
-        <th>Friday</th>
-        <th>Saturday</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>
-          <p><strong>Electronic Devices 1</strong><br>07:30 AM – 10:00 AM<br>ELEXLAB1</p>
-          <p><strong>Introduction to IT</strong><br>10:00 AM – 12:00 PM<br>ROOM 5B</p>
-          <p><strong>Occupational Safety and Health</strong><br>02:30 PM – 04:00 PM<br>ROOM 6</p>
-        </td>
-        <td>
-          <p><strong>Occupational Safety and Health</strong><br>07:00 AM – 08:30 AM<br>ROOM 6</p>
-          <p><strong>Computer Fundamentals</strong><br>09:30 AM – 12:00 PM<br>ROOM 1</p>
-          <p><strong>Mathematics in the Modern World</strong><br>06:30 PM – 08:30 PM<br>ROOM 6</p>
-        </td>
-        <td>
-          <p><strong>Electronic Devices 1</strong><br>07:30 AM – 10:00 AM<br>ELEXLAB1</p>
-          <p><strong>Introduction to IT</strong><br>10:00 AM – 12:00 PM<br>ROOM 5B</p>
-          <p><strong>PATH Fit 1 (PE)</strong><br>01:00 PM – 03:00 PM<br>ROOM 1</p>
-        </td>
-        <td>
-          <p><strong>Computer Fundamentals</strong><br>09:30 AM – 12:00 PM<br>ROOM 1</p>
-          <p><strong>Mathematics in the Modern World</strong><br>05:30 PM – 06:30 PM<br>ROOM 6</p>
-          <p><strong>Industrial Drawing</strong><br>07:30 PM – 08:30 PM<br>ROOM 8</p>
-        </td>
-        <td>
-          <p><strong>Introduction to IT</strong><br>09:00 AM – 10:00 AM<br>ROOM 5B</p>
-          <p><strong>Purposive Communication</strong><br>01:00 PM – 04:00 PM<br>ROOM 3</p>
-        </td>
-        <td>
-          <p><strong>NSTP 1</strong><br>07:30 AM – 10:30 AM<br>LLCC GROUND</p>
-          <p><strong>Industrial Drawing</strong><br>01:00 PM – 04:00 PM<br>ROOM 8</p>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-
+  <script>
+    function copyCode() {
+      const code = document.getElementById("codeBox").innerText;
+      navigator.clipboard.writeText(code).then(() => {
+        alert("Loadstring copied!");
+      });
+    }
+  </script>
 </body>
 </html>
